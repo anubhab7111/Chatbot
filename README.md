@@ -26,20 +26,20 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/chatbot.git
-   cd chatbot
+   $ git clone https://github.com/yourusername/chatbot.git
+   $ cd chatbot
 
-2. Install the requirements
+2. **Install the requirements**
 
    ```bash
    $ pip install -r requirements.txt
    
 ## Usage 
-1.   Set up your API key: Ensure you have a Google API key. You can set the key in your environment variables:
-
-   - &nbsp;On macOS/Linux:
+1. Set up your API key: Ensure you have a Google API key. You can set the key in your environment variables:
+   - On macOS/Linux:
       ```bash
       export GOOGLE_API_KEY='your_api_key_here'
+
    - On Windows
       ```bash 
       set GOOGLE_API_KEY='your_api_key_here'
