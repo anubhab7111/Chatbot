@@ -1,23 +1,21 @@
-# Chatbot Application
+# Gemini Chatbot
 
-💬 A simple chatbot that utilizes Google Gemini to generate responses.
+💬 A simple command-line chatbot powered by Google Gemini, allowing users to interact with a generative AI model for real-time responses.
 
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Key](#api-key)
+- [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
 - Interactive command-line interface for chatting.
 - Real-time response generation using Google Gemini.
-- Supports continuous conversation history.
+- Maintains chat history for a continuous conversational experience.
 
 ## Technologies Used
 
@@ -29,4 +27,36 @@
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/chatbot.git
-   cd Chatbot
+   cd chatbot
+
+2. Install the requirements
+
+   ```bash
+   $ pip install -r requirements.txt
+   
+## Usage 
+1.   Set up your API key: Ensure you have a Google API key. You can set the key in your environment variables:
+
+   - On macOS/Linux:
+      ```bash
+      export GOOGLE_API_KEY='your_api_key_here'
+   - On Windows
+      ```bash 
+      set GOOGLE_API_KEY='your_api_key_here'
+
+2. Run the application: Execute your Python script:
+
+3. Start chatting: You will be prompted to ask anything. Type your message and hit Enter. Type exit to stop the chatbot.
+
+## Environment Variables
+This application uses the GOOGLE_API_KEY environment variable for authentication. Make sure to keep your API key confidential and never share it publicly.
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and create a pull request.
+
+
+
+
+
+
+   
