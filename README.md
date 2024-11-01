@@ -45,6 +45,8 @@
       set GOOGLE_API_KEY='your_api_key_here'
 
 2. Run the application: Execute your Python script:
+      ```bash
+      python gemini_bot.py
 
 3. Start chatting: You will be prompted to ask anything. Type your message and hit Enter. Type exit to stop the chatbot.
 
