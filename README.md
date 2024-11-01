@@ -37,7 +37,7 @@
 ## Usage 
 1.   Set up your API key: Ensure you have a Google API key. You can set the key in your environment variables:
 
-   - On macOS/Linux:
+   - &nbsp;On macOS/Linux:
       ```bash
       export GOOGLE_API_KEY='your_api_key_here'
    - On Windows
@@ -52,13 +52,3 @@
 
 ## Environment Variables
 This application uses the GOOGLE_API_KEY environment variable for authentication. Make sure to keep your API key confidential and never share it publicly.
-
-## Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and create a pull request.
-
-
-
-
-
-
-   
